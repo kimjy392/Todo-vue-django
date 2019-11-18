@@ -60,4 +60,19 @@
    		package.json
    ```
 
-   
+## 2. DRF 모델링
+
+## 3. Vue
+
+### Vue-router
+
+> 각각의 경로마다 실행을 할 수 있게 해주는것
+
+```bash
+$ npm i vue-router
+$ vue add router
+> Still proceed? y
+> Use history mode for router? (Requires proper server setup for index fallback in production) y
+
+```
+
