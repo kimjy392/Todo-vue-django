@@ -8,7 +8,7 @@ class TodoSerializers(serializers.ModelSerializer):
         fields = ('id', 'title', 'user', 'is_completed')
 
 class UserSerializers(serializers.ModelSerializer):
-    todo_set = TodoSerializers(many=True)
+    todo_set = TodoSerializers(many=True) # 1:N
     class Meta:
         model = get_user_model()
         fields = ('id', 'username', 'todo_set')
